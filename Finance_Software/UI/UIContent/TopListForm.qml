@@ -20,7 +20,7 @@ Item {
         source: "assets/TopListBackground.png"
     }
     Label {
-        id: label
+        id: menu_name
         x: 25
         y: 22
         width: 200
@@ -56,4 +56,8 @@ Item {
         text: qsTr("Button")
         onClicked: stockview.handleButton2Click(1)
     }
+    Connections {
+            target: leftview
+            onChangeLabelText: menu_name.text = newText
+        }
 }

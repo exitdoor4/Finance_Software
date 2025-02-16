@@ -34,7 +34,6 @@ Item {
             height: 75
             text: qsTr("=")
             onClicked: leftview.handleButton1Click(1)
-
         }
 
         Button {

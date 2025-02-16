@@ -17,8 +17,8 @@ public:
 private:
     LeftView leftView;  // LeftView 멤버로 선언
     StockView stockView;
+    QObject *label;
 
-signals:
 };
 
 #endif // CORE_H

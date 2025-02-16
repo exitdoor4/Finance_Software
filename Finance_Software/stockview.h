@@ -14,6 +14,8 @@ public:
     Q_INVOKABLE void handleButton3Click(int buttonId);
 
 signals:
+
+
 };
 
 #endif // STOCKVIEW_H

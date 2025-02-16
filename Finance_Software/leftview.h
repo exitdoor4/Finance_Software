@@ -14,8 +14,11 @@ public:
     Q_INVOKABLE void handleButton2Click(int buttonId);
     Q_INVOKABLE void handleButton3Click(int buttonId);
 
+    void Set_Label(const QString & newText);
 
 signals:
+    void changeLabelText(const QString &newText);
+
 };
 
 #endif // LEFTVIEW_H
