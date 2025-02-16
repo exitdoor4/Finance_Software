@@ -10,25 +10,13 @@ import QtQuick
 import QtQuick.Controls
 
 Item {
-    id: mainAPP
-    width: 1920
-    height: 1080
+    id: root
+    width: 1645
+    height: 926
 
-    Image {
-        id: backgroundMain
+    FinanceMainContent {
+        id: financeMainContent
         x: 0
         y: 0
-        width: 1920
-        height: 1080
-        //source: "qrc:/qtquickplugin/images/template_image.png"
-        fillMode: Image.PreserveAspectFit
-    }
-
-    LeftdrawerForm {
-        id: leftdrawerForm
-        x: 0
-        y: 0
-        width: 336
-        height: 1081
     }
 }

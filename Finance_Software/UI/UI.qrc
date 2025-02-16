@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qtquickcontrols2.conf</file>
+        <file>UI.qmlproject</file>
+        <file>UI/Constants.qml</file>
+        <file>UI/EventListModel.qml</file>
+        <file>UI/EventListSimulator.qml</file>
+        <file>UI/qmldir</file>
+        <file>UIContent/App.qml</file>
+        <file>UIContent/assets/LeftBackground.png</file>
+        <file>UIContent/assets/mainbackground.png</file>
+        <file>UIContent/assets/MainViewbackground.png</file>
+        <file>UIContent/assets/TopListBackground.png</file>
+        <file>UIContent/FinanceMainContent.qml</file>
+        <file>UIContent/LeftdrawerForm.qml</file>
+        <file>UIContent/MainApp.qml</file>
+        <file>UIContent/MainView.qml</file>
+        <file>UIContent/TopListForm.qml</file>
+    </qresource>
+</RCC>

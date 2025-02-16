@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/qt/qml/finance">
-        <file>main.qml</file>
-    </qresource>
-</RCC>
